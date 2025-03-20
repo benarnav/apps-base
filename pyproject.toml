@@ -1,0 +1,17 @@
+[project]
+name = "apps-base"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "inspect-ai>=0.3.75",
+    "inspect-evals",
+    "ipykernel>=6.29.5",
+    "openai>=1.66.5",
+    "python-dotenv>=1.0.1",
+    "together>=1.4.6",
+]
+
+[tool.uv.sources]
+inspect-evals = { git = "https://github.com/UKGovernmentBEIS/inspect_evals" }

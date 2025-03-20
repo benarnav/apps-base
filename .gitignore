@@ -1,0 +1,7 @@
+.env
+.venv
+uv.lock
+hello.py
+*.eval
+logs/
+*.ipynb
